@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+
+{% block title %}iir.ru{% endblock %}
+
+{% block content %}
+<div class="selling-headline content-block">
+        <p id="b-selling">Реализуем<br>Ваш проект</p>
+        <p id="s-selling">Быстро, качественно и дёшево</p>
+        <a class="btn-selling-headline" href="https://t.me/ArseniiSorokin">Получить консультацию</a>
+        <img src="{{ url_for('static', filename='img/selling-bg.png') }}" alt="selling-bg" style="float: right; width: 350px; margin-top: -260px; margin-right: 40px;">
+</div>
+<div class="content">
+        <div class="content-block">
+                <div class="content-box">
+                        <h1 id="services" class="center-h">Наше предложение</h1>
+                        <ul>
+                                <li>Макросы Excel</li>
+                                <li>Разработка сайтов любой сложности</li>
+                                <li>Парсинг</li>
+                                <li>Автоматизация бэк-офиса</li>
+                                <li>Автоматизация обновления БД сайта</li>
+                                <li>Торговые роботы</li>
+                                <li>Интеграция и написание чат-ботов</li>
+                                <li>Другие IT-услуги</li>
+                                <p class="service-down" style="font-weight: 500;">В наших решениях мы используем такие технологии как:</p>
+                                <li>Python</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>React</li>
+                                <li>Excel</li>
+                                <li>Docker</li>
+                                <li>Apache2</li>
+                                <li>И другие</li>
+                                <p class="service-down"><b class="colorful-text">*</b> Если Вы в списке не нашли то, что искали или не разобрались с технологиями то пишите нам, мы всегда готовы Вам помочь!</p>
+                        </ul>
+                </div>
+        </div>
+
+        <div class="content-block">
+                <div class="content-box">
+                        <h1 id="algorithm" class="center-h">Алгоритм разработки</h1>
+                        <p style="font-weight: 500;">Погружение в Вашу задачу <b class="colorful-text">-></b> формирование целей и конечного результата
+                        <b class="colorful-text">-></b> расчет трудозатрат в человеко-часах <b class="colorful-text">-></b> разработка <b class="colorful-text">-></b> тестирование и доработка <b class="colorful-text">-></b> интеграция
+                        <b class="colorful-text">-></b> оплата <b class="colorful-text">-></b> поддержка и развитие проекта <b class="colorful-text">-></b> Ваш успех</p>
+                </div>
+        </div>
+
+        <div class="content-block">
+                <div class="content-box">
+                        <h1 id="about-us" class="center-h">Почему <b class="colorful-text">мы</b>?</h1>
+                        <div class="reasons">
+                                <div class="reason">
+                                        <img src="{{ url_for('static', filename='img/about-us/scales.png') }}" alt="scales">
+                                        <h2>Низкая цена</h2>
+                                        <p>лучшее соотношение<br>цена-качество на рынке</p>
+                                </div>
+
+                                <div class="reason">
+                                        <img src="{{ url_for('static', filename='img/about-us/cup.png') }}" alt="cup">
+                                        <h2>Высокое качество</h2>
+                                        <p>у нас работают только настоящие<br>профессионалы своего дела</p>
+                                </div>
+
+                                <div class="reason">
+                                        <img src="{{ url_for('static', filename='img/about-us/programmer.png') }}" alt="developer">
+                                        <h2>Огромный штат</h2>
+                                        <p>найдём идеального исполнителя<br>специально под Вас</p>
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+
+        <a class="btn-selling-bottom" href="https://t.me/ArseniiSorokin">Напишите нашему специалисту</a>
+</div>
+{% endblock %}
