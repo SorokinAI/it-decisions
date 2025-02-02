@@ -12,7 +12,6 @@ html {
 body {
     margin: 0px;
     height: 100%;
-    background: 900
 }
 
 h1 {
@@ -23,6 +22,11 @@ h1 {
 p {
     font-family: "Roboto";
 }
+
+a {
+    color: #3f48cc;
+}
+
 hr {
     width: 70%;
     weight: 5px;
@@ -62,9 +66,8 @@ main {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
-    padding-left: 75px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-top: 15px;
     overflow: hidden;
 }
 
@@ -72,7 +75,6 @@ main {
 .navbar a {
     text-decoration: none;
     padding: 15px;
-    padding-top: 25px;
     display: block;
     text-align: center;
     color: black;
@@ -114,20 +116,19 @@ main {
     text-align: center;
 }
 
-.logo {
-    height: 50px;
-    margin-right: 30px;
-}
 #logo {
     padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    width: 320px;
+    margin-top: -7px;
+    margin-bottom: auto;
+    margin-right: 30px;
 }
 
 .contacts {
     margin-left: auto;
     margin-right: 50px;
-    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 15px;
 }
 
@@ -223,7 +224,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 150px;
 }
 
 .reason {
@@ -238,6 +238,14 @@ main {
 .reason img {
     margin-right: auto;
     margin-left: auto;
+}
+
+
+.about_us_text {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+
 }
 
 /* service */
@@ -276,17 +284,29 @@ main {
 
 @media screen and (max-width: 1300px) {
     .navbar ul{
-        padding-left: 10px;
+        padding: 5px;
+        padding-top: 15px;
         margin-left: 0px;
+        margin-right: 0px;
     }
 
     .navbar a {
-        font-size: 18px;
+        font-size: 17px;
+        padding: 5px;
+        padding-right: 10px;
+        padding-top: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
-    .logo {
+    #logo {
         margin-right: 0px;
-        margin-top: 10px;
-        height: 40px;
+        margin-top: -5смpx;
+        width: 220px;
+
+    }
+
+    .contacts {
+        font-size: 13px;
     }
 }
